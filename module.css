@@ -49,14 +49,6 @@ a {
 	color: inherit;
 	text-decoration: inherit;
 }
-a .circle:hover {
-	color: #20c6d7;
-	border-color: #20c6d7;
-}	
-a .textbar:hover {
-	background-color: #20c6d7;
-	border-color: #20c6d7;
-}
 .wew {
 	margin-left: 45%;
 	width: 50px;
@@ -64,8 +56,10 @@ a .textbar:hover {
 .wew:hover .circle{
 	color: #20c6d7;
 	border-color: #20c6d7;
+	box-shadow: 0 3px 5px -1px grey;
 }
 .wew:hover .textbar{
 	background-color: #20c6d7;
 	border-color: #20c6d7;
+	box-shadow: 0 3px 5px -1px grey;
 }
